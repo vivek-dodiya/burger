@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.gradient{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(215,224,226,1) 250%);
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+.section-1{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-1 a button{
+    background-color: #f64b3c;
+}
+
+.section-1 a button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    transition: 0.7s ease-in-out;
+}
+
+/* ==== section-2 ===== */
+.section-2{     
+    background-color: #f9dfae;
+}
+.section-2 .card{
+    background-color: transparent;
+    border: none;
+    color: tomato;
+}
+/* ===== section-3 ======= */
+.section-3{
+    background-color: #f64b3c;
+}
+.section-3 .image img{
+    position: relative;
+}
+.section-3 a button{
+    background-color: white;
+    color: #f64b3c!important;
+}
+.section-3 a  button:hover{
+    background-color: #f64b3c;
+    color: white!important;
+    border: 2px solid white;
+    transition: 0.5s ease-in-out;
+}
+/* ===== section - 4 ======= */
+.section-4{
+    background-color: #f6eedf;
+    color: #f64b3c;
+}
+.section-4 a button{
+    background-color:#f64b3c;
+    color: white!important;
+}
+.section-4 a  button:hover{
+    background-color:transparent;
+    color: #f64b3c!important;
+    border: 2px solid #f64b3c;
+    transition: 0.5s ease-in-out;
+}
+/* ===== section - 5 ======= */
+.section-5{
+    background-color: #f64b3c;
+    color: white;
+}
+.section-5 .card{
+    background-color: transparent;
+    border: none;
+}
+/* ===== section - 6 ===== */
+.section-6 {
+    background-image: url(images/background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.section-6::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+    background-color: #f25747;
+    z-index: -1;
+}
